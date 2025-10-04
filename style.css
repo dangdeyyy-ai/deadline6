@@ -25,7 +25,8 @@ body {
   box-sizing: border-box;
 }
 div.container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 div.Header {
@@ -189,4 +190,5 @@ div.footer {
   align-items: center;
   height: 72px;
   background-color: #d9d9d9;
+  font-family: var(--text1);
 }
