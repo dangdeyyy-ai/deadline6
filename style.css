@@ -24,15 +24,18 @@ body {
 }
 div.container {
   max-width: 1200px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 div.Header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 95%;
   gap: var(--gap);
-  padding: 29px 0;
+  padding: 20px 0;
 }
 div.Logo {
   background-color: var(--bg1);
@@ -57,7 +60,7 @@ div.Menu {
   justify-content: center;
   align-items: center;
   background-color: var(--bg1);
-  width: 820px;
+  flex: 1;
   height: 34px;
   border-radius: var(--radius);
 }
