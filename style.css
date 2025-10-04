@@ -10,14 +10,12 @@
   font-family: var(--text1);
   font-size: 20px;
   font-weight: 700;
-  font-weight: bold;
 }
 .title1,
 .title2,
 .title3 {
   font-size: 20px;
   font-weight: 700;
-  font-weight: bold;
 }
 body {
   background-color: #ffffff;
@@ -71,7 +69,6 @@ div.main-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: var(--gap);
 }
 div.content {
@@ -89,7 +86,7 @@ div.image {
   align-items: center;
   background-color: #e2e2e2;
   width: 585px;
-  height: 575px;
+  height: 520px;
   border-radius: var(--radius);
 }
 div.section1 {
@@ -191,4 +188,5 @@ div.footer {
   height: 72px;
   background-color: #d9d9d9;
   font-family: var(--text1);
+  font-weight: 700;
 }
