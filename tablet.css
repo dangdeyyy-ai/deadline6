@@ -12,7 +12,14 @@
   div.Menu {
     height: 30px;
   }
-
+  div.content {
+    width: 100%;
+    height: 250px;
+  }
+  div.image {
+    width: 100%;
+    height: 300px;
+  }
   div.main-body {
     flex-direction: column;
   }
