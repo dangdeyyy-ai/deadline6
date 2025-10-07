@@ -1,29 +1,36 @@
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
+  div.container {
+    max-width: 992px;
+    width: 95%;
+  }
+  div.header {
+    max-width: 992px;
+    width: 95%;
+  }
   div.Logo {
-    width: 150px;
-    height: 70px;
+    width: 140px;
+    height: 42px;
   }
 
   div.btn {
-    width: 100px;
-    height: 38px;
+    height: 36px;
   }
 
   div.Menu {
+    width: 418px;
     height: 30px;
   }
   div.content {
-    width: 100%;
-    height: 250px;
+    height: 267px;
   }
   div.image {
-    width: 100%;
-    height: 300px;
+    height: 310px;
   }
-  div.main-body {
-    flex-direction: column;
+  div.section1,
+  div.section2,
+  .section3 {
+    padding: 60px 0;
   }
-
   div.item1 {
     width: calc((100% - 30px) / 2);
   }
@@ -39,7 +46,8 @@
   div.title1,
   div.title2,
   div.title3 {
-    width: 80%;
+    width: 100%;
     height: 60px;
+    font-size: 20px;
   }
 }

@@ -1,19 +1,34 @@
 @media only screen and (max-width: 760px) {
   div.Header {
     gap: 10px;
+    justify-content: space-between;
   }
   div.Logo {
-    width: 120px;
-    height: 50px;
+    order: 1;
   }
   div.Menu {
-    width: 250px;
+    width: 66px;
+    height: 36px;
+    flex: none;
+    font-size: 16px;
+  }
+  div.btn {
+    width: 78px;
+    height: 36px;
+    order: 2;
+    font-size: 16px;
+  }
+  div.main-body {
+    flex-direction: column;
   }
   div.content {
-    height: 200px;
+    height: 267px;
+    width: 100%;
+    order: 1;
   }
   div.image {
-    height: 250px;
+    height: 491px;
+    width: 100%;
   }
   div.main-section {
     padding: 40px 0;
@@ -28,14 +43,14 @@
   }
 
   div.item3 {
-    width: 100%;
+    width: calc((100% - 30px) / 2);
   }
 
   div.title1,
   div.title2,
   div.title3 {
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   div.footer {
