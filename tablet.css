@@ -1,0 +1,43 @@
+@media only screen and (max-width: 960px) {
+  div.Logo {
+    width: 150px;
+    height: 70px;
+  }
+
+  div.btn {
+    width: 100px;
+    height: 38px;
+  }
+
+  div.Menu {
+    height: 30px;
+  }
+
+  div.main-body {
+    flex-direction: column;
+  }
+
+  div.content,
+  .image {
+    width: 100%;
+  }
+
+  div.item1 {
+    width: calc((100% - 30px) / 2);
+  }
+
+  div.item2 {
+    width: calc((100% - 30px * 2) / 3);
+  }
+
+  div.item3 {
+    width: calc((100% - 30px) / 2);
+  }
+
+  div.title1,
+  .title2,
+  .title3 {
+    width: 80%;
+    height: 60px;
+  }
+}

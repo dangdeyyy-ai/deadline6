@@ -1,0 +1,45 @@
+@media only screen and (max-width: 760px) {
+  div.Header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  div.Logo {
+    width: 120px;
+    height: 50px;
+  }
+  div.Menu {
+    width: 250px;
+  }
+
+  div.main-section {
+    padding: 40px 0;
+  }
+
+  div.content,
+  .image {
+    width: 100%;
+  }
+
+  div.item1 {
+    width: 100%;
+  }
+
+  div.item2 {
+    width: calc((100% - 30px) / 2);
+  }
+
+  div.item3 {
+    width: 100%;
+  }
+
+  div.title1,
+  .title2,
+  .title3 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  div.footer {
+    font-size: 16px;
+  }
+}

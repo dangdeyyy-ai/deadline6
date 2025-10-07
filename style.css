@@ -46,7 +46,7 @@ div.Logo {
   justify-content: center;
   align-items: center;
 }
-.btn {
+div.btn {
   background-color: var(--bg1);
   width: 120px;
   height: 42px;
@@ -111,7 +111,7 @@ div.body1 {
   flex-wrap: wrap;
   gap: var(--gap);
 }
-.item1 {
+div.item1 {
   display: flex;
   justify-content: center;
   align-items: center;
