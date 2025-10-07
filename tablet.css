@@ -17,11 +17,6 @@
     flex-direction: column;
   }
 
-  div.content,
-  .image {
-    width: 100%;
-  }
-
   div.item1 {
     width: calc((100% - 30px) / 2);
   }
@@ -35,8 +30,8 @@
   }
 
   div.title1,
-  .title2,
-  .title3 {
+  div.title2,
+  div.title3 {
     width: 80%;
     height: 60px;
   }
