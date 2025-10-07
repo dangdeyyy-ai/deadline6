@@ -9,7 +9,12 @@
   div.Menu {
     width: 250px;
   }
-
+  div.content {
+    height: 200px;
+  }
+  div.image {
+    height: 250px;
+  }
   div.main-section {
     padding: 40px 0;
   }
